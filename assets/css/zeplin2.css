@@ -482,6 +482,12 @@ a {
     margin-top: 128px;
 }
 
+.card-inside {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
 .cards-blog h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -502,5 +508,120 @@ a {
     margin-bottom: 32px;
 }
 
+.cards-th {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    border-radius: 6px;
+    box-shadow: 0 8px 16px 0 rgba(40, 41, 61, 0.04);
+    margin-bottom: 13px;
+}
 
+.card-th {
+    border-radius: 6px;
+    box-shadow: 0 8px 16px 0 rgba(40, 41, 61, 0.04);
+    padding: 16px;
+}
+
+.card-img {
+    height: 209px;
+}
+
+.card-img img{
+    width: 322px;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+.card-date img {
+    padding: 8px;
+    background-color: #e6f0ff;
+    border-radius: 50%;
+}
+
+.card-date {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 8px 14px
+}
+
+.card-content h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #212121;
+    margin: 0 8px 8px;
+}
+
+.card-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #52647c;
+    margin: 0 8px;
+}
 /* CARDS-BLOG FINISH */
+
+/* INBOX START */
+.inbox {
+    background: url('/assets/img/container/inbox/background-inbox.jpg');
+    height: 354px;
+    background-size: 100% 100%;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.inbox-content {
+    width: 426px;
+    height: 197px;
+    position: absolute;
+    top: 80px;
+    left: 96px;
+}
+
+.inbox-content h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: -0.4px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+input::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #807e7e;
+    padding: 12px 0 0 16px;
+
+}
+
+.inbox-content input {
+    width: 367px;
+    height: 48px;
+}
+
+.inbox-content img {
+    background-color: #0d6efd;
+    width: 63px;
+    height: 45.9px;
+    padding: 12.5px 21px 12.5px 22px;
+    border-radius: 0 2px 2px 0;
+    position: absolute;
+    left: 303px;
+    top: 121px;
+}
+
+.inbox-img img {
+    width: 275px;
+    height: 276px;
+    position: absolute;
+    top: 58px;
+    right: 98px;
+}
+/* INBOX FINISH */
