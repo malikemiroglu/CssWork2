@@ -566,7 +566,7 @@ a {
 
 /* INBOX START */
 .inbox {
-    background: url('/assets/img/container/inbox/background-inbox.jpg');
+    background: url('../img/container/inbox/background-inbox.jpg    ');
     height: 354px;
     background-size: 100% 100%;
     margin-top: 80px;
