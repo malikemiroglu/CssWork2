@@ -598,12 +598,21 @@ input::placeholder {
     line-height: 1.71;
     color: #807e7e;
     padding: 12px 0 0 16px;
-
 }
 
 .inbox-content input {
     width: 367px;
     height: 48px;
+    border: solid 1px #c4c4c4;
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
+
+.inbox-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 1.75;
+    color: #fff;
 }
 
 .inbox-content img {
@@ -625,3 +634,91 @@ input::placeholder {
     right: 98px;
 }
 /* INBOX FINISH */
+
+
+/* FOOTER START */
+.footer-top {
+    padding: 72px 0;
+    display: flex;
+    gap: 24px;
+    border-top: 1.2px solid #eaeaea;
+    border-bottom: 1.2px solid #eaeaea;
+}
+
+.footer-inbox {
+    width: 354px;
+    position: relative;
+}
+
+.footer-item {
+    width: 165px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-item h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #212121;
+    font-weight: bold;
+}
+
+.footer-item p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #807e7e;
+}
+
+.footer-inbox p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: right;
+    color: #212121;
+    margin-bottom: 24px;
+}
+
+.footer-inbox input {
+    width: 354px;
+    height: 48px;
+    border: solid 1px #c4c4c4;
+    border-radius: 3px;
+}
+
+.footer-inbox img {
+    background-color: #0d6efd;
+    width: 63px;
+    height: 45.9px;
+    padding: 12.5px 21px 12.5px 22px;
+    border-radius: 0 2px 2px 0;
+    position: absolute;
+    right: 1px;
+    top: 53px;
+}
+
+
+
+.footer-down {
+    margin: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-down p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    color: #807e7e;
+}
+
+.footer-down .social {
+    display: flex;
+    gap: 40px;
+}
+/* FOOTER FINISH */
+
